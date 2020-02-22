@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+      <title>PM 2.5 Los Angeles</title>
+  </head>
+
+  <body>
+        <h1>PM 2.5 Los Angeles</h1>
+        <a href="/refresh">refresh</a>
+        <ul>
+            {% for row in result %}
+              <li>{{ row }}</li>
+            {% endfor %}
+        </ul>
+
+  </body>
+  </html>
